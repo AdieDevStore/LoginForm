@@ -1,0 +1,24 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 500px;
+  margin: 0 auto;
+  padding: 0;
+}  
+
+h1 {
+  font-size: 100px;
+}
+
+.link-div {
+  margin: 2px; 
+  position: relative;
+}
+
+a {
+  font-size: 60px;
+  text-decoration: none;
+  color: black;
+}

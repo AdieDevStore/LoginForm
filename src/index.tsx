@@ -13,6 +13,8 @@ import LoginPage from './routes/LoginPage';
 import SignUpPage from './routes/SignUpPage';
 import LoggedIn from './routes/LoggedIn';
 
+import './index.css';
+
 const Root = () => { 
   return (  
     <>

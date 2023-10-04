@@ -1,17 +1,17 @@
 import React, { useEffect, useState } from 'react';
-import '../App.css';
+import '../styles/home.css';
 
 function HomePage() {
 
   const [data, setData] = useState({id: undefined}); 
 
   return (
-    <div>
+    <div className='main'>
       <h1>Home page</h1>
-      <div>
+      <div className='link-div'>
         <a href='/login'>Login</a>
       </div>
-      <div>
+      <div className='link-div'>
         <a href='/register'>Register</a>
       </div>
     </div>
